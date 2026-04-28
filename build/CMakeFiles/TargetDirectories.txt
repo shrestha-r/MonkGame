@@ -1,0 +1,3 @@
+/home/r-sh/Desktop/MonkGame/build/CMakeFiles/MonkGame.dir
+/home/r-sh/Desktop/MonkGame/build/CMakeFiles/edit_cache.dir
+/home/r-sh/Desktop/MonkGame/build/CMakeFiles/rebuild_cache.dir
