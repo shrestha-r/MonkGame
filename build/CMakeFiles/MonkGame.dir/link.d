@@ -3,6 +3,7 @@ MonkGame: \
   /usr/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o \
   CMakeFiles/MonkGame.dir/main.cpp.o \
+  CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o \
   CMakeFiles/MonkGame.dir/src/Character.cpp.o \
   CMakeFiles/MonkGame.dir/src/Dungeon.cpp.o \
   CMakeFiles/MonkGame.dir/src/EmptyRoom.cpp.o \
@@ -48,6 +49,8 @@ MonkGame: \
 /usr/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/crtbeginS.o:
 
 CMakeFiles/MonkGame.dir/main.cpp.o:
+
+CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o:
 
 CMakeFiles/MonkGame.dir/src/Character.cpp.o:
 

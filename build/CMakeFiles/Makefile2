@@ -85,12 +85,12 @@ clean: CMakeFiles/MonkGame.dir/clean
 CMakeFiles/MonkGame.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MonkGame.dir/build.make CMakeFiles/MonkGame.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MonkGame.dir/build.make CMakeFiles/MonkGame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target MonkGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target MonkGame"
 .PHONY : CMakeFiles/MonkGame.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MonkGame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/r-sh/Desktop/MonkGame/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/r-sh/Desktop/MonkGame/build/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MonkGame.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/r-sh/Desktop/MonkGame/build/CMakeFiles 0
 .PHONY : CMakeFiles/MonkGame.dir/rule
@@ -102,7 +102,7 @@ MonkGame: CMakeFiles/MonkGame.dir/rule
 # codegen rule for target.
 CMakeFiles/MonkGame.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MonkGame.dir/build.make CMakeFiles/MonkGame.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Finished codegen for target MonkGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Finished codegen for target MonkGame"
 .PHONY : CMakeFiles/MonkGame.dir/codegen
 
 # clean rule for target.

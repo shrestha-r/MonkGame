@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MonkGame.dir/build.make CMakeFiles/MonkGame.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/BossRoom.o: src/BossRoom.cpp.o
+.PHONY : src/BossRoom.o
+
+# target to build an object file
+src/BossRoom.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MonkGame.dir/build.make CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o
+.PHONY : src/BossRoom.cpp.o
+
+src/BossRoom.i: src/BossRoom.cpp.i
+.PHONY : src/BossRoom.i
+
+# target to preprocess a source file
+src/BossRoom.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MonkGame.dir/build.make CMakeFiles/MonkGame.dir/src/BossRoom.cpp.i
+.PHONY : src/BossRoom.cpp.i
+
+src/BossRoom.s: src/BossRoom.cpp.s
+.PHONY : src/BossRoom.s
+
+# target to generate assembly for a file
+src/BossRoom.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MonkGame.dir/build.make CMakeFiles/MonkGame.dir/src/BossRoom.cpp.s
+.PHONY : src/BossRoom.cpp.s
+
 src/Character.o: src/Character.cpp.o
 .PHONY : src/Character.o
 
@@ -405,6 +429,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/BossRoom.o"
+	@echo "... src/BossRoom.i"
+	@echo "... src/BossRoom.s"
 	@echo "... src/Character.o"
 	@echo "... src/Character.i"
 	@echo "... src/Character.s"

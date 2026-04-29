@@ -136,4 +136,5 @@ CMakeFiles/MonkGame.dir/src/RoomFactory.cpp.o: \
  /home/r-sh/Desktop/MonkGame/include/Goblin.h \
  /home/r-sh/Desktop/MonkGame/include/Character.h \
  /home/r-sh/Desktop/MonkGame/include/UpgradeRoom.h \
- /home/r-sh/Desktop/MonkGame/include/TreasureRoom.h
+ /home/r-sh/Desktop/MonkGame/include/TreasureRoom.h \
+ /home/r-sh/Desktop/MonkGame/include/BossRoom.h

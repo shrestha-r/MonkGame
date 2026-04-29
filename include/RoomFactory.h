@@ -3,7 +3,7 @@
 
 #include "Room.h"
 
-enum RoomType { EMPTY, MONSTER, UPGRADE, TREASURE };
+enum RoomType { EMPTY, MONSTER, UPGRADE, BOSS, TREASURE };
 
 class RoomFactory {
 public:

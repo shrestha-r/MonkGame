@@ -3,9 +3,11 @@
 
 #include "Character.h"
 
-class Goblin : public Character {
+class Goblin : public Character
+{
 public:
     Goblin();
+    Goblin(int hp, int atk);
 };
 
 #endif

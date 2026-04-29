@@ -86,10 +86,24 @@ CMakeFiles/MonkGame.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MonkGame.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r-sh/Desktop/MonkGame/main.cpp -o CMakeFiles/MonkGame.dir/main.cpp.s
 
+CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o: CMakeFiles/MonkGame.dir/flags.make
+CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o: /home/r-sh/Desktop/MonkGame/src/BossRoom.cpp
+CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o: CMakeFiles/MonkGame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o -MF CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o.d -o CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o -c /home/r-sh/Desktop/MonkGame/src/BossRoom.cpp
+
+CMakeFiles/MonkGame.dir/src/BossRoom.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MonkGame.dir/src/BossRoom.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/r-sh/Desktop/MonkGame/src/BossRoom.cpp > CMakeFiles/MonkGame.dir/src/BossRoom.cpp.i
+
+CMakeFiles/MonkGame.dir/src/BossRoom.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MonkGame.dir/src/BossRoom.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/r-sh/Desktop/MonkGame/src/BossRoom.cpp -o CMakeFiles/MonkGame.dir/src/BossRoom.cpp.s
+
 CMakeFiles/MonkGame.dir/src/Character.cpp.o: CMakeFiles/MonkGame.dir/flags.make
 CMakeFiles/MonkGame.dir/src/Character.cpp.o: /home/r-sh/Desktop/MonkGame/src/Character.cpp
 CMakeFiles/MonkGame.dir/src/Character.cpp.o: CMakeFiles/MonkGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MonkGame.dir/src/Character.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MonkGame.dir/src/Character.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MonkGame.dir/src/Character.cpp.o -MF CMakeFiles/MonkGame.dir/src/Character.cpp.o.d -o CMakeFiles/MonkGame.dir/src/Character.cpp.o -c /home/r-sh/Desktop/MonkGame/src/Character.cpp
 
 CMakeFiles/MonkGame.dir/src/Character.cpp.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/MonkGame.dir/src/Character.cpp.s: cmake_force
 CMakeFiles/MonkGame.dir/src/Dungeon.cpp.o: CMakeFiles/MonkGame.dir/flags.make
 CMakeFiles/MonkGame.dir/src/Dungeon.cpp.o: /home/r-sh/Desktop/MonkGame/src/Dungeon.cpp
 CMakeFiles/MonkGame.dir/src/Dungeon.cpp.o: CMakeFiles/MonkGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MonkGame.dir/src/Dungeon.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MonkGame.dir/src/Dungeon.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MonkGame.dir/src/Dungeon.cpp.o -MF CMakeFiles/MonkGame.dir/src/Dungeon.cpp.o.d -o CMakeFiles/MonkGame.dir/src/Dungeon.cpp.o -c /home/r-sh/Desktop/MonkGame/src/Dungeon.cpp
 
 CMakeFiles/MonkGame.dir/src/Dungeon.cpp.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/MonkGame.dir/src/Dungeon.cpp.s: cmake_force
 CMakeFiles/MonkGame.dir/src/EmptyRoom.cpp.o: CMakeFiles/MonkGame.dir/flags.make
 CMakeFiles/MonkGame.dir/src/EmptyRoom.cpp.o: /home/r-sh/Desktop/MonkGame/src/EmptyRoom.cpp
 CMakeFiles/MonkGame.dir/src/EmptyRoom.cpp.o: CMakeFiles/MonkGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MonkGame.dir/src/EmptyRoom.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MonkGame.dir/src/EmptyRoom.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MonkGame.dir/src/EmptyRoom.cpp.o -MF CMakeFiles/MonkGame.dir/src/EmptyRoom.cpp.o.d -o CMakeFiles/MonkGame.dir/src/EmptyRoom.cpp.o -c /home/r-sh/Desktop/MonkGame/src/EmptyRoom.cpp
 
 CMakeFiles/MonkGame.dir/src/EmptyRoom.cpp.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/MonkGame.dir/src/EmptyRoom.cpp.s: cmake_force
 CMakeFiles/MonkGame.dir/src/Goblin.cpp.o: CMakeFiles/MonkGame.dir/flags.make
 CMakeFiles/MonkGame.dir/src/Goblin.cpp.o: /home/r-sh/Desktop/MonkGame/src/Goblin.cpp
 CMakeFiles/MonkGame.dir/src/Goblin.cpp.o: CMakeFiles/MonkGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MonkGame.dir/src/Goblin.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MonkGame.dir/src/Goblin.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MonkGame.dir/src/Goblin.cpp.o -MF CMakeFiles/MonkGame.dir/src/Goblin.cpp.o.d -o CMakeFiles/MonkGame.dir/src/Goblin.cpp.o -c /home/r-sh/Desktop/MonkGame/src/Goblin.cpp
 
 CMakeFiles/MonkGame.dir/src/Goblin.cpp.i: cmake_force
@@ -145,7 +159,7 @@ CMakeFiles/MonkGame.dir/src/Goblin.cpp.s: cmake_force
 CMakeFiles/MonkGame.dir/src/Monk.cpp.o: CMakeFiles/MonkGame.dir/flags.make
 CMakeFiles/MonkGame.dir/src/Monk.cpp.o: /home/r-sh/Desktop/MonkGame/src/Monk.cpp
 CMakeFiles/MonkGame.dir/src/Monk.cpp.o: CMakeFiles/MonkGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MonkGame.dir/src/Monk.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MonkGame.dir/src/Monk.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MonkGame.dir/src/Monk.cpp.o -MF CMakeFiles/MonkGame.dir/src/Monk.cpp.o.d -o CMakeFiles/MonkGame.dir/src/Monk.cpp.o -c /home/r-sh/Desktop/MonkGame/src/Monk.cpp
 
 CMakeFiles/MonkGame.dir/src/Monk.cpp.i: cmake_force
@@ -159,7 +173,7 @@ CMakeFiles/MonkGame.dir/src/Monk.cpp.s: cmake_force
 CMakeFiles/MonkGame.dir/src/MonsterRoom.cpp.o: CMakeFiles/MonkGame.dir/flags.make
 CMakeFiles/MonkGame.dir/src/MonsterRoom.cpp.o: /home/r-sh/Desktop/MonkGame/src/MonsterRoom.cpp
 CMakeFiles/MonkGame.dir/src/MonsterRoom.cpp.o: CMakeFiles/MonkGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MonkGame.dir/src/MonsterRoom.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MonkGame.dir/src/MonsterRoom.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MonkGame.dir/src/MonsterRoom.cpp.o -MF CMakeFiles/MonkGame.dir/src/MonsterRoom.cpp.o.d -o CMakeFiles/MonkGame.dir/src/MonsterRoom.cpp.o -c /home/r-sh/Desktop/MonkGame/src/MonsterRoom.cpp
 
 CMakeFiles/MonkGame.dir/src/MonsterRoom.cpp.i: cmake_force
@@ -173,7 +187,7 @@ CMakeFiles/MonkGame.dir/src/MonsterRoom.cpp.s: cmake_force
 CMakeFiles/MonkGame.dir/src/Room.cpp.o: CMakeFiles/MonkGame.dir/flags.make
 CMakeFiles/MonkGame.dir/src/Room.cpp.o: /home/r-sh/Desktop/MonkGame/src/Room.cpp
 CMakeFiles/MonkGame.dir/src/Room.cpp.o: CMakeFiles/MonkGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MonkGame.dir/src/Room.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MonkGame.dir/src/Room.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MonkGame.dir/src/Room.cpp.o -MF CMakeFiles/MonkGame.dir/src/Room.cpp.o.d -o CMakeFiles/MonkGame.dir/src/Room.cpp.o -c /home/r-sh/Desktop/MonkGame/src/Room.cpp
 
 CMakeFiles/MonkGame.dir/src/Room.cpp.i: cmake_force
@@ -187,7 +201,7 @@ CMakeFiles/MonkGame.dir/src/Room.cpp.s: cmake_force
 CMakeFiles/MonkGame.dir/src/RoomFactory.cpp.o: CMakeFiles/MonkGame.dir/flags.make
 CMakeFiles/MonkGame.dir/src/RoomFactory.cpp.o: /home/r-sh/Desktop/MonkGame/src/RoomFactory.cpp
 CMakeFiles/MonkGame.dir/src/RoomFactory.cpp.o: CMakeFiles/MonkGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MonkGame.dir/src/RoomFactory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MonkGame.dir/src/RoomFactory.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MonkGame.dir/src/RoomFactory.cpp.o -MF CMakeFiles/MonkGame.dir/src/RoomFactory.cpp.o.d -o CMakeFiles/MonkGame.dir/src/RoomFactory.cpp.o -c /home/r-sh/Desktop/MonkGame/src/RoomFactory.cpp
 
 CMakeFiles/MonkGame.dir/src/RoomFactory.cpp.i: cmake_force
@@ -201,7 +215,7 @@ CMakeFiles/MonkGame.dir/src/RoomFactory.cpp.s: cmake_force
 CMakeFiles/MonkGame.dir/src/TreasureRoom.cpp.o: CMakeFiles/MonkGame.dir/flags.make
 CMakeFiles/MonkGame.dir/src/TreasureRoom.cpp.o: /home/r-sh/Desktop/MonkGame/src/TreasureRoom.cpp
 CMakeFiles/MonkGame.dir/src/TreasureRoom.cpp.o: CMakeFiles/MonkGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MonkGame.dir/src/TreasureRoom.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MonkGame.dir/src/TreasureRoom.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MonkGame.dir/src/TreasureRoom.cpp.o -MF CMakeFiles/MonkGame.dir/src/TreasureRoom.cpp.o.d -o CMakeFiles/MonkGame.dir/src/TreasureRoom.cpp.o -c /home/r-sh/Desktop/MonkGame/src/TreasureRoom.cpp
 
 CMakeFiles/MonkGame.dir/src/TreasureRoom.cpp.i: cmake_force
@@ -215,7 +229,7 @@ CMakeFiles/MonkGame.dir/src/TreasureRoom.cpp.s: cmake_force
 CMakeFiles/MonkGame.dir/src/UpgradeRoom.cpp.o: CMakeFiles/MonkGame.dir/flags.make
 CMakeFiles/MonkGame.dir/src/UpgradeRoom.cpp.o: /home/r-sh/Desktop/MonkGame/src/UpgradeRoom.cpp
 CMakeFiles/MonkGame.dir/src/UpgradeRoom.cpp.o: CMakeFiles/MonkGame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MonkGame.dir/src/UpgradeRoom.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MonkGame.dir/src/UpgradeRoom.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MonkGame.dir/src/UpgradeRoom.cpp.o -MF CMakeFiles/MonkGame.dir/src/UpgradeRoom.cpp.o.d -o CMakeFiles/MonkGame.dir/src/UpgradeRoom.cpp.o -c /home/r-sh/Desktop/MonkGame/src/UpgradeRoom.cpp
 
 CMakeFiles/MonkGame.dir/src/UpgradeRoom.cpp.i: cmake_force
@@ -229,6 +243,7 @@ CMakeFiles/MonkGame.dir/src/UpgradeRoom.cpp.s: cmake_force
 # Object files for target MonkGame
 MonkGame_OBJECTS = \
 "CMakeFiles/MonkGame.dir/main.cpp.o" \
+"CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o" \
 "CMakeFiles/MonkGame.dir/src/Character.cpp.o" \
 "CMakeFiles/MonkGame.dir/src/Dungeon.cpp.o" \
 "CMakeFiles/MonkGame.dir/src/EmptyRoom.cpp.o" \
@@ -244,6 +259,7 @@ MonkGame_OBJECTS = \
 MonkGame_EXTERNAL_OBJECTS =
 
 MonkGame: CMakeFiles/MonkGame.dir/main.cpp.o
+MonkGame: CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o
 MonkGame: CMakeFiles/MonkGame.dir/src/Character.cpp.o
 MonkGame: CMakeFiles/MonkGame.dir/src/Dungeon.cpp.o
 MonkGame: CMakeFiles/MonkGame.dir/src/EmptyRoom.cpp.o
@@ -257,7 +273,7 @@ MonkGame: CMakeFiles/MonkGame.dir/src/UpgradeRoom.cpp.o
 MonkGame: CMakeFiles/MonkGame.dir/build.make
 MonkGame: CMakeFiles/MonkGame.dir/compiler_depend.ts
 MonkGame: CMakeFiles/MonkGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable MonkGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/r-sh/Desktop/MonkGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable MonkGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MonkGame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

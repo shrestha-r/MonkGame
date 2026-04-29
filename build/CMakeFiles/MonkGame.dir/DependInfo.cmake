@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/r-sh/Desktop/MonkGame/main.cpp" "CMakeFiles/MonkGame.dir/main.cpp.o" "gcc" "CMakeFiles/MonkGame.dir/main.cpp.o.d"
+  "/home/r-sh/Desktop/MonkGame/src/BossRoom.cpp" "CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o" "gcc" "CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o.d"
   "/home/r-sh/Desktop/MonkGame/src/Character.cpp" "CMakeFiles/MonkGame.dir/src/Character.cpp.o" "gcc" "CMakeFiles/MonkGame.dir/src/Character.cpp.o.d"
   "/home/r-sh/Desktop/MonkGame/src/Dungeon.cpp" "CMakeFiles/MonkGame.dir/src/Dungeon.cpp.o" "gcc" "CMakeFiles/MonkGame.dir/src/Dungeon.cpp.o.d"
   "/home/r-sh/Desktop/MonkGame/src/EmptyRoom.cpp" "CMakeFiles/MonkGame.dir/src/EmptyRoom.cpp.o" "gcc" "CMakeFiles/MonkGame.dir/src/EmptyRoom.cpp.o.d"

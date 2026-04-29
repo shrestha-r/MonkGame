@@ -3,53 +3,53 @@
 #include <cstdlib>
 #include <ctime>
 #include <algorithm>
+#include <random>
 
-Dungeon::Dungeon() {}
+~
 
-Dungeon::~Dungeon() {
-    for (auto r : rooms) delete r;
+Dungeon::~Dungeon()
+{
+    for (auto r : rooms)
+        delete r;
 }
 
-void Dungeon::generate() {
+void Dungeon::generate()
+{
     srand(time(0));
+    rooms.clear();
 
-    int totalRooms = 5 + rand() % 3; // 5–7 rooms
-
-    // Ensure required rooms exist
-    rooms.push_back(RoomFactory::createRoom(TREASURE));
+    // Base rooms
+    rooms.push_back(RoomFactory::createRoom(EMPTY));
+    rooms.push_back(RoomFactory::createRoom(MONSTER));
+    rooms.push_back(RoomFactory::createRoom(MONSTER));
     rooms.push_back(RoomFactory::createRoom(UPGRADE));
     rooms.push_back(RoomFactory::createRoom(MONSTER));
-    rooms.push_back(RoomFactory::createRoom(MONSTER));
-    rooms.push_back(RoomFactory::createRoom(EMPTY));
 
-    // Fill remaining randomly
-    for (int i = 5; i < totalRooms; i++) {
-        int type = rand() % 3; // no extra treasure
-        rooms.push_back(RoomFactory::createRoom(static_cast<RoomType>(type)));
-    }
+    // 👑 Boss + Treasure (ONLY ONCE)
+    rooms.push_back(RoomFactory::createRoom(BOSS));
+    rooms.push_back(RoomFactory::createRoom(TREASURE));
 
-    // Shuffle rooms
-    std::random_shuffle(rooms.begin(), rooms.end());
+    // Shuffle only safe part (exclude last 2 rooms)
+    std::random_shuffle(rooms.begin(), rooms.end() - 2);
+    std::random_device rd;
+    std::mt19937 g(rd());
 
-    // Ensure connectivity (spanning tree)
-    for (int i = 0; i < totalRooms - 1; i++) {
+    std::shuffle(rooms.begin(), rooms.end() - 2, g);
+    // Ensure connectivity
+    for (size_t i = 0; i < rooms.size() - 1; i++)
+    {
         rooms[i]->connect(rooms[i + 1]);
         rooms[i + 1]->connect(rooms[i]);
     }
 
-    // Add extra random connections
-    for (int i = 0; i < totalRooms; i++) {
-        int extraConnections = rand() % 2; // 0 or 1 extra
-        for (int j = 0; j < extraConnections; j++) {
-            int target = rand() % totalRooms;
-            if (target != i) {
-                rooms[i]->connect(rooms[target]);
-                rooms[target]->connect(rooms[i]);
-            }
-        }
+    // Safety: treasure not first
+    if (rooms[0]->getType() == "Treasure")
+    {
+        std::swap(rooms[0], rooms[1]);
     }
 }
 
-Room* Dungeon::getStartRoom() {
-    return rooms[rand() % rooms.size()];
+Room *Dungeon::getStartRoom()
+{
+    return rooms[0]; // safer than random start
 }

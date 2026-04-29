@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/MonkGame.dir/link.d"
   "CMakeFiles/MonkGame.dir/main.cpp.o"
   "CMakeFiles/MonkGame.dir/main.cpp.o.d"
+  "CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o"
+  "CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o.d"
   "CMakeFiles/MonkGame.dir/src/Character.cpp.o"
   "CMakeFiles/MonkGame.dir/src/Character.cpp.o.d"
   "CMakeFiles/MonkGame.dir/src/Dungeon.cpp.o"
