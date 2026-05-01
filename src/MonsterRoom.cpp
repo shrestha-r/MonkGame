@@ -5,6 +5,7 @@
 
 void MonsterRoom::enter(Monk &monk)
 {
+    markVisited();
     std::cout << "Monster Room! A Goblin appears!\n";
 
     while (monk.isAlive() && goblin.isAlive())
@@ -48,35 +49,31 @@ void MonsterRoom::enter(Monk &monk)
         }
 
         // Goblin turn (still simple AI)
-        int gAction;
-        if (goblin.getHealth() <= 3)
-        {
-            // Low HP → defensive behaviour
-            gAction = 1; // Guard
-        }
-        else if (monk.getHealth() <= 5)
-        {
-            // Player weak → aggressive behaviour
-            gAction = 0; // Attack
-        }
-        else
-        {
-            // Normal state → weighted randomness (70% attack)
-            int r = rand() % 10;
-            gAction = (r < 7) ? 0 : 1;
-        }
-
-        if (gAction == 0 && rand() % 2)
-        {
-            monk.takeDamage(goblin.getAttack());
-            std::cout << "Goblin attacks!\n";
-        }
-        else
-        {
-            goblin.heal(1);
-            std::cout << "Goblin defends!\n";
-        }
-
+if (goblin.getHealth() <= 3) {
+    // Low HP → try to survive
+    if (rand() % 2) {
+        goblin.heal(1);
+        std::cout << "Goblin panics and heals!\n";
+    } else {
+        monk.takeDamage(goblin.getAttack());
+        std::cout << "Goblin attacks desperately!\n";
+    }
+}
+else if (monk.getHealth() <= 5) {
+    // Monk is weak → go aggressive
+    monk.takeDamage(goblin.getAttack());
+    std::cout << "Goblin goes aggressive!\n";
+}
+else {
+    // Normal behaviour (balanced)
+    if (rand() % 2) {
+        monk.takeDamage(goblin.getAttack());
+        std::cout << "Goblin attacks!\n";
+    } else {
+        goblin.heal(1);
+        std::cout << "Goblin guards.\n";
+    }
+}
         std::cout << "Monk HP: " << monk.getHealth()
                   << " | Goblin HP: " << goblin.getHealth() << "\n";
     }

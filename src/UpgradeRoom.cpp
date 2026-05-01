@@ -3,6 +3,7 @@
 #include <iostream>
 
 void UpgradeRoom::enter(Monk& monk) {
+    markVisited();
     int choice;
     std::cout << "Upgrade Room! (1) Health (2) Attack: ";
     std::cin >> choice;

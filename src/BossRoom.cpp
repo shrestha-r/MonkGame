@@ -3,12 +3,14 @@
 #include <iostream>
 #include <cstdlib>
 
-BossRoom::BossRoom() : boss(30, 6) {}
+BossRoom::BossRoom() : boss(30, 6,30) {}
 std::string BossRoom::getType() const {
     return "Boss";
 }
-void BossRoom::enter(Monk& monk) {
-    std::cout << "\n🔥 Boss Room! A powerful Goblin appears!\n";
+
+void BossRoom::enter(Monk& monk) {\
+    markVisited();
+    std::cout << "\nBoss Room! A powerful Goblin appears!\n";
 
     while (monk.isAlive() && boss.isAlive()) {
 
@@ -31,24 +33,24 @@ void BossRoom::enter(Monk& monk) {
             std::cout << "You defend.\n";
         }
 
-        // 🧠 SIMPLE BOSS AI
-        if (boss.getHealth() <= 8) {
-            boss.heal(2);
-            std::cout << "Boss is healing!\n";
-        }
-        else if (monk.getHealth() <= 6) {
-            monk.takeDamage(boss.getAttack());
-            std::cout << "Boss goes aggressive!\n";
-        }
-        else {
-            if (rand() % 2) {
-                monk.takeDamage(boss.getAttack());
-                std::cout << "Boss attacks!\n";
-            } else {
-                boss.heal(1);
-                std::cout << "Boss guards.\n";
-            }
-        }
+        // SIMPLE BOSS AI
+if (boss.getHealth() <= 10) {
+    boss.heal(2);
+    std::cout << "Boss regenerates!\n";
+}
+else if (monk.getHealth() <= 8) {
+    monk.takeDamage(boss.getAttack());
+    std::cout << "Boss goes aggressive!\n";
+}
+else {
+    if (rand() % 2) {
+        monk.takeDamage(boss.getAttack());
+        std::cout << "Boss attacks!\n";
+    } else {
+        boss.heal(1);
+        std::cout << "Boss guards.\n";
+    }
+}
 
         std::cout << "Monk HP: " << monk.getHealth()
                   << " | Boss HP: " << boss.getHealth() << "\n";

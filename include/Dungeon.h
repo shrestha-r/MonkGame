@@ -13,6 +13,8 @@ public:
     ~Dungeon();
     void generate();
     Room* getStartRoom();
+    void printMap(Room* current);
+    const std::vector<Room*>& getRooms() const;
 };
 
 #endif
