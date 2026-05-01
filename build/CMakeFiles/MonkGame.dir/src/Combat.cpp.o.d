@@ -1,8 +1,9 @@
-CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o: \
- /home/r-sh/Desktop/MonkGame/src/BossRoom.cpp /usr/include/stdc-predef.h \
- /home/r-sh/Desktop/MonkGame/include/BossRoom.h \
- /home/r-sh/Desktop/MonkGame/include/Room.h \
- /usr/include/c++/15.2.0/vector \
+CMakeFiles/MonkGame.dir/src/Combat.cpp.o: \
+ /home/r-sh/Desktop/MonkGame/src/Combat.cpp /usr/include/stdc-predef.h \
+ /home/r-sh/Desktop/MonkGame/include/Combat.h \
+ /home/r-sh/Desktop/MonkGame/include/Monk.h \
+ /home/r-sh/Desktop/MonkGame/include/Character.h \
+ /usr/include/c++/15.2.0/string \
  /usr/include/c++/15.2.0/bits/requires_hosted.h \
  /usr/include/c++/15.2.0/x86_64-unknown-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.0/x86_64-unknown-linux-gnu/bits/os_defines.h \
@@ -15,59 +16,15 @@ CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/c++/15.2.0/x86_64-unknown-linux-gnu/bits/cpu_defines.h \
  /usr/include/c++/15.2.0/pstl/pstl_config.h \
- /usr/include/c++/15.2.0/bits/stl_algobase.h \
- /usr/include/c++/15.2.0/bits/functexcept.h \
- /usr/include/c++/15.2.0/bits/exception_defines.h \
- /usr/include/c++/15.2.0/bits/cpp_type_traits.h \
- /usr/include/c++/15.2.0/bits/version.h \
- /usr/include/c++/15.2.0/type_traits \
- /usr/include/c++/15.2.0/ext/type_traits.h \
- /usr/include/c++/15.2.0/ext/numeric_traits.h \
- /usr/include/c++/15.2.0/bits/stl_pair.h \
- /usr/include/c++/15.2.0/bits/move.h \
- /usr/include/c++/15.2.0/bits/utility.h \
- /usr/include/c++/15.2.0/bits/stl_iterator_base_types.h \
- /usr/include/c++/15.2.0/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/15.2.0/bits/concept_check.h \
- /usr/include/c++/15.2.0/debug/assertions.h \
- /usr/include/c++/15.2.0/bits/stl_iterator.h \
- /usr/include/c++/15.2.0/bits/ptr_traits.h \
- /usr/include/c++/15.2.0/debug/debug.h \
- /usr/include/c++/15.2.0/bits/predefined_ops.h \
- /usr/include/c++/15.2.0/bit /usr/include/c++/15.2.0/concepts \
- /usr/include/c++/15.2.0/bits/allocator.h \
- /usr/include/c++/15.2.0/x86_64-unknown-linux-gnu/bits/c++allocator.h \
- /usr/include/c++/15.2.0/bits/new_allocator.h /usr/include/c++/15.2.0/new \
- /usr/include/c++/15.2.0/bits/exception.h \
- /usr/include/c++/15.2.0/bits/memoryfwd.h \
- /usr/include/c++/15.2.0/bits/stl_construct.h \
- /usr/include/c++/15.2.0/bits/stl_uninitialized.h \
- /usr/include/c++/15.2.0/ext/alloc_traits.h \
- /usr/include/c++/15.2.0/bits/alloc_traits.h \
- /usr/include/c++/15.2.0/bits/stl_vector.h \
- /usr/include/c++/15.2.0/initializer_list \
- /usr/include/c++/15.2.0/bits/stl_bvector.h \
- /usr/include/c++/15.2.0/bits/functional_hash.h \
- /usr/include/c++/15.2.0/bits/hash_bytes.h \
- /usr/include/c++/15.2.0/bits/refwrap.h \
- /usr/include/c++/15.2.0/bits/invoke.h \
- /usr/include/c++/15.2.0/bits/stl_function.h \
- /usr/include/c++/15.2.0/backward/binders.h \
- /usr/include/c++/15.2.0/bits/range_access.h \
- /usr/include/c++/15.2.0/bits/vector.tcc \
- /usr/include/c++/15.2.0/bits/memory_resource.h \
- /usr/include/c++/15.2.0/cstddef \
- /usr/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include/stddef.h \
- /usr/include/c++/15.2.0/bits/uses_allocator.h \
- /usr/include/c++/15.2.0/bits/uses_allocator_args.h \
- /usr/include/c++/15.2.0/tuple /usr/include/c++/15.2.0/string \
  /usr/include/c++/15.2.0/bits/stringfwd.h \
+ /usr/include/c++/15.2.0/bits/memoryfwd.h \
  /usr/include/c++/15.2.0/bits/char_traits.h \
  /usr/include/c++/15.2.0/bits/postypes.h /usr/include/c++/15.2.0/cwchar \
  /usr/include/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include/stddef.h \
  /usr/lib/gcc/x86_64-unknown-linux-gnu/15.2.0/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
@@ -77,6 +34,16 @@ CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/c++/15.2.0/type_traits \
+ /usr/include/c++/15.2.0/bits/version.h \
+ /usr/include/c++/15.2.0/bits/allocator.h \
+ /usr/include/c++/15.2.0/x86_64-unknown-linux-gnu/bits/c++allocator.h \
+ /usr/include/c++/15.2.0/bits/new_allocator.h /usr/include/c++/15.2.0/new \
+ /usr/include/c++/15.2.0/bits/exception.h \
+ /usr/include/c++/15.2.0/bits/functexcept.h \
+ /usr/include/c++/15.2.0/bits/exception_defines.h \
+ /usr/include/c++/15.2.0/bits/move.h \
+ /usr/include/c++/15.2.0/bits/cpp_type_traits.h \
  /usr/include/c++/15.2.0/bits/localefwd.h \
  /usr/include/c++/15.2.0/x86_64-unknown-linux-gnu/bits/c++locale.h \
  /usr/include/c++/15.2.0/clocale /usr/include/locale.h \
@@ -89,8 +56,33 @@ CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/endianness.h \
  /usr/include/c++/15.2.0/bits/ostream_insert.h \
  /usr/include/c++/15.2.0/bits/cxxabi_forced.h \
+ /usr/include/c++/15.2.0/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/15.2.0/bits/concept_check.h \
+ /usr/include/c++/15.2.0/debug/assertions.h \
+ /usr/include/c++/15.2.0/bits/stl_iterator_base_types.h \
+ /usr/include/c++/15.2.0/bits/stl_iterator.h \
+ /usr/include/c++/15.2.0/ext/type_traits.h \
+ /usr/include/c++/15.2.0/bits/ptr_traits.h \
+ /usr/include/c++/15.2.0/bits/stl_function.h \
+ /usr/include/c++/15.2.0/backward/binders.h \
+ /usr/include/c++/15.2.0/ext/numeric_traits.h \
+ /usr/include/c++/15.2.0/bits/stl_algobase.h \
+ /usr/include/c++/15.2.0/bits/stl_pair.h \
+ /usr/include/c++/15.2.0/bits/utility.h \
+ /usr/include/c++/15.2.0/debug/debug.h \
+ /usr/include/c++/15.2.0/bits/predefined_ops.h \
+ /usr/include/c++/15.2.0/bit /usr/include/c++/15.2.0/concepts \
+ /usr/include/c++/15.2.0/bits/refwrap.h \
+ /usr/include/c++/15.2.0/bits/invoke.h \
+ /usr/include/c++/15.2.0/bits/range_access.h \
+ /usr/include/c++/15.2.0/initializer_list \
  /usr/include/c++/15.2.0/bits/basic_string.h \
+ /usr/include/c++/15.2.0/ext/alloc_traits.h \
+ /usr/include/c++/15.2.0/bits/alloc_traits.h \
+ /usr/include/c++/15.2.0/bits/stl_construct.h \
  /usr/include/c++/15.2.0/string_view \
+ /usr/include/c++/15.2.0/bits/functional_hash.h \
+ /usr/include/c++/15.2.0/bits/hash_bytes.h \
  /usr/include/c++/15.2.0/bits/string_view.tcc \
  /usr/include/c++/15.2.0/ext/string_conversions.h \
  /usr/include/c++/15.2.0/cstdlib /usr/include/stdlib.h \
@@ -130,9 +122,13 @@ CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/15.2.0/bits/charconv.h \
  /usr/include/c++/15.2.0/bits/basic_string.tcc \
- /home/r-sh/Desktop/MonkGame/include/Goblin.h \
- /home/r-sh/Desktop/MonkGame/include/Character.h \
- /home/r-sh/Desktop/MonkGame/include/Monk.h \
+ /usr/include/c++/15.2.0/bits/memory_resource.h \
+ /usr/include/c++/15.2.0/cstddef \
+ /usr/include/c++/15.2.0/bits/uses_allocator.h \
+ /usr/include/c++/15.2.0/bits/uses_allocator_args.h \
+ /usr/include/c++/15.2.0/tuple \
+ /home/r-sh/Desktop/MonkGame/include/AttackAction.h \
+ /home/r-sh/Desktop/MonkGame/include/Action.h \
  /usr/include/c++/15.2.0/iostream /usr/include/c++/15.2.0/ostream \
  /usr/include/c++/15.2.0/bits/ostream.h /usr/include/c++/15.2.0/ios \
  /usr/include/c++/15.2.0/exception \
@@ -183,5 +179,4 @@ CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o: \
  /usr/include/c++/15.2.0/bits/basic_ios.tcc \
  /usr/include/c++/15.2.0/bits/ostream.tcc /usr/include/c++/15.2.0/istream \
  /usr/include/c++/15.2.0/bits/istream.tcc \
- /home/r-sh/Desktop/MonkGame/include/Combat.h \
- /home/r-sh/Desktop/MonkGame/include/Monk.h
+ /home/r-sh/Desktop/MonkGame/include/GuardAction.h

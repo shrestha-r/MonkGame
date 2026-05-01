@@ -5,6 +5,7 @@ MonkGame: \
   CMakeFiles/MonkGame.dir/main.cpp.o \
   CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o \
   CMakeFiles/MonkGame.dir/src/Character.cpp.o \
+  CMakeFiles/MonkGame.dir/src/Combat.cpp.o \
   CMakeFiles/MonkGame.dir/src/Dungeon.cpp.o \
   CMakeFiles/MonkGame.dir/src/EmptyRoom.cpp.o \
   CMakeFiles/MonkGame.dir/src/Goblin.cpp.o \
@@ -53,6 +54,8 @@ CMakeFiles/MonkGame.dir/main.cpp.o:
 CMakeFiles/MonkGame.dir/src/BossRoom.cpp.o:
 
 CMakeFiles/MonkGame.dir/src/Character.cpp.o:
+
+CMakeFiles/MonkGame.dir/src/Combat.cpp.o:
 
 CMakeFiles/MonkGame.dir/src/Dungeon.cpp.o:
 

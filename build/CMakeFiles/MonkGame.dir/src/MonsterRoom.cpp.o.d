@@ -183,4 +183,6 @@ CMakeFiles/MonkGame.dir/src/MonsterRoom.cpp.o: \
  /usr/include/c++/15.2.0/bits/locale_facets.tcc \
  /usr/include/c++/15.2.0/bits/basic_ios.tcc \
  /usr/include/c++/15.2.0/bits/ostream.tcc /usr/include/c++/15.2.0/istream \
- /usr/include/c++/15.2.0/bits/istream.tcc
+ /usr/include/c++/15.2.0/bits/istream.tcc \
+ /home/r-sh/Desktop/MonkGame/include/Combat.h \
+ /home/r-sh/Desktop/MonkGame/include/Monk.h

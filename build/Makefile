@@ -201,6 +201,30 @@ src/Character.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MonkGame.dir/build.make CMakeFiles/MonkGame.dir/src/Character.cpp.s
 .PHONY : src/Character.cpp.s
 
+src/Combat.o: src/Combat.cpp.o
+.PHONY : src/Combat.o
+
+# target to build an object file
+src/Combat.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MonkGame.dir/build.make CMakeFiles/MonkGame.dir/src/Combat.cpp.o
+.PHONY : src/Combat.cpp.o
+
+src/Combat.i: src/Combat.cpp.i
+.PHONY : src/Combat.i
+
+# target to preprocess a source file
+src/Combat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MonkGame.dir/build.make CMakeFiles/MonkGame.dir/src/Combat.cpp.i
+.PHONY : src/Combat.cpp.i
+
+src/Combat.s: src/Combat.cpp.s
+.PHONY : src/Combat.s
+
+# target to generate assembly for a file
+src/Combat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MonkGame.dir/build.make CMakeFiles/MonkGame.dir/src/Combat.cpp.s
+.PHONY : src/Combat.cpp.s
+
 src/Dungeon.o: src/Dungeon.cpp.o
 .PHONY : src/Dungeon.o
 
@@ -435,6 +459,9 @@ help:
 	@echo "... src/Character.o"
 	@echo "... src/Character.i"
 	@echo "... src/Character.s"
+	@echo "... src/Combat.o"
+	@echo "... src/Combat.i"
+	@echo "... src/Combat.s"
 	@echo "... src/Dungeon.o"
 	@echo "... src/Dungeon.i"
 	@echo "... src/Dungeon.s"
