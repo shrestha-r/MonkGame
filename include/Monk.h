@@ -5,13 +5,14 @@
 
 class Monk : public Character {
 private:
-    int maxHealth;
-
+    std::string description;
 public:
     Monk(std::string name);
     void increaseHealth();
     void increaseAttack();
     void fullHeal();
+    void setDescription(const std::string& desc);
+    std::string getDescription() const;
 };
 
 #endif

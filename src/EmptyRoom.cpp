@@ -3,6 +3,7 @@
 #include <iostream>
 
 void EmptyRoom::enter(Monk& monk) {
+    markVisited();
     std::cout << "Empty Room. You meditate and heal.\n";
     monk.fullHeal();
 }

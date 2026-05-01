@@ -8,9 +8,10 @@ protected:
     std::string name;
     int health;
     int attack;
+    int maxHealth;
 
 public:
-    Character(std::string name, int hp, int atk);
+    Character(std::string name, int hp, int atk,int m);
     virtual ~Character() {}
 
     int getHealth() const;

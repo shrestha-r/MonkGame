@@ -7,7 +7,7 @@ class Goblin : public Character
 {
 public:
     Goblin();
-    Goblin(int hp, int atk);
+    Goblin(int hp, int atk,int m);
 };
 
 #endif
